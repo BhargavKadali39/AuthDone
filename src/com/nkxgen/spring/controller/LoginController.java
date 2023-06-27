@@ -41,8 +41,8 @@ public class LoginController {
 		System.out.println("Here");
 		Class.forName("org.postgresql.Driver");
 		/*
-		 * String url = "jdbc:postgresql://192.168.110.48:5432/plf_training"; String
-		 * username = "plf_training_admin"; String password = "pff123";
+		 * String url = "jdbc:postgresql://192.168.110.48:5432/plf_training"; String username = "plf_training_admin";
+		 * String password = "pff123";
 		 */
 		String url = "jdbc:postgresql://localhost:5432/postgres";
 		String username = "postgres";
